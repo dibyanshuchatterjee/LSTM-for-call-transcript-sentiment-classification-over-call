@@ -1,0 +1,7 @@
+<Response>
+  <Say voice="woman">Hello!</Say>
+  <Gather input="speech" timeout="30" action="/gather-response">
+    <Say>Please speak your response after the tone.</Say>
+  </Gather>
+  <Say>Goodbye!</Say>
+</Response>
